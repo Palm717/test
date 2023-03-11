@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(12, 128, 128, 0.1);
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+  font-size: 10px;
+}
+
+header nav {
+  margin-right: 10%;
+  border-bottom: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: silver;
+  font-size: 14px;
+  text-shadow: 3px 3px 6px thistle;
+}
+
+header h1 {
+  margin-left: 10%;
+  text-shadow: 2px 2px 4px purple;
+}
+
+.navigation {
+  border: 3px whitesmoke solid;
+  border-radius: 4px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.container {
+  border: 8px whitesmoke solid;
+  border-left: none;
+  border-right: none;
+
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-top: none;
+}
+
+.left {
+  border: 10px purple solid;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 700px;
+  margin: 2%;
+}
+
+.right {
+  border: 10px purple solid;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 700px;
+  margin: 2%;
+}
+
+.left p {
+  border: 8px whitesmoke solid;
+  box-shadow: 5px 10px pink;
+  border-radius: 30px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  height: 25%;
+  margin: 5%;
+}
+
+.right p {
+  border: 8px whitesmoke solid;
+  box-shadow: 5px 10px pink;
+  border-radius: 30px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  height: 25%;
+  margin: 5%;
+}
