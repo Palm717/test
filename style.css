@@ -34,24 +34,14 @@ header h1 {
 }
 
 .navigation {
-  border: 3px whitesmoke solid;
-  border-radius: 4px;
   width: 100%;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
 }
 
 .container {
-  border: 8px whitesmoke solid;
-  border-left: none;
-  border-right: none;
-
   width: auto;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  border-top: none;
 }
 
 .left {
